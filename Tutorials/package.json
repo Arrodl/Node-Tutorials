@@ -1,0 +1,10 @@
+ {
+  "name": "Tutorials",
+  "version": "0.0",
+  "description": "This is a tutorial in how to user node.js",
+  "main": "app.js",
+  "repository": "https://github.com/Arrodl/Node-Tutorials.git",
+  "author": "Alfonso Reyna",
+  "license": "MIT",
+  "private": null
+}
