@@ -28,3 +28,21 @@ printBacon();
 
 // Waits 5 seconds
 setTimeout(printBacon, 5000);
+
+var Bucky = {
+	printFristName: function () {
+		console.log("My name is Bucky");
+		console.log(this === Bucky);
+	}
+};
+
+Bucky.printFristName();
+
+// The default calling context is global 
+function doSomethingWorthless () {
+	console.log("\nHe is worthless");
+	console.log(this === Bucky);  // False
+	console.log(this === global); // True 
+}
+
+doSomethingWorthless();
